@@ -2,9 +2,9 @@
 
 namespace ApishkaTest\DbQuery\PgSql;
 
-use Apishka\DbQuery\StdLib\Expression;
 use Apishka\DbQuery\PgSql\FieldString;
 use Apishka\DbQuery\PgSql\QuerySelect;
+use Apishka\DbQuery\StdLib\Expression;
 
 /**
  * Query test
