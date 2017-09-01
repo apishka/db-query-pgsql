@@ -1,0 +1,31 @@
+{
+    "name": "apishka/db-query-pgsql",
+    "description": "Database query builder for pgsql",
+    "keywords": ["db", "database", "sql", "pgsql", "query", "builder"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Evgeny Reykh",
+            "email": "evgeny@reykh.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "apishka/easy-extend": "^1.2.10",
+        "apishka/db-query-stdlib": "^1.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2.2",
+        "apishka/cs": "^1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Apishka\\DbQuery\\PgSql\\": "source"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ApishkaTest\\DbQuery\\PgSql\\": "tests"
+        }
+    }
+}

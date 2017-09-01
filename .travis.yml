@@ -1,0 +1,13 @@
+language: php
+
+php:
+  - 7
+
+before_install:
+  - composer self-update
+
+install:
+  - composer install --no-interaction --prefer-source
+
+script:
+  - php ./vendor/bin/phpunit -c phpunit.sample.xml
